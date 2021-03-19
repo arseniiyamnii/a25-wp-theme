@@ -1,10 +1,10 @@
 # A25 Wordpress theme  
 ![WP version](./doc/img/wpversion.png)
-![Theme version](./doc/img/themeversion.png)
+[![Theme version](./doc/img/themeversion.png)](https://github.com/arseniiyamnii/a25-wp-theme/releases/latest)
 
 check this theme at [HERE](http://94.190.26.105:8026 "A25 site")  
 
-Скачать тему можно в разделе [Release](https://github.com/arseniiyamnii/a25-wp-theme/releases/latest "Release")  
+Скачать тему можно в разделе [Release](https://github.com/arseniiyamnii/a25-wp-theme/releases/latest "Release")
 ## Немного о разработке
 На сайте используется только эта тема, и никаких больше плагинов и доработок.  
 Это абсолютно чистый сайт.  
