@@ -1,5 +1,6 @@
 # A25 Wordpress theme  
 ![WP version](./doc/img/wpversion.png)
+![Theme version](./doc/img/themeversion.png)
 
 check this theme at [HERE](http://94.190.26.105:8026 "A25 site")  
 
