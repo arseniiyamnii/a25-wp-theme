@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&family=Merriweather:wght@300&display=swap');
+
+.navbar-brand {
+
+    left: 20%;
+    position: relative;
+}
+.navbar-brand img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 65px;
+}
+.navbar li{
+    font-family: 'Merriweather', serif;
+    margin-right: 20px;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 1;
+}
+.row{
+margin-bottom:100px;
+}
+
+.bg-default {
+    background-color: black;
+}
+h2 {
+    font-family: 'Cormorant Infant', serif;
+}
+p {
+    font-family: 'Merriweather', serif;
+}
+.box {
+    padding: 0 30px 0 30px;
+}
+footer {
+    background-color: black;
+    position: relative;
+}
+footer p, footer h2{
+    color:white;
+}
+footer .row{
+margin-bottom: 0px}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.row.center-content{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+
+}
