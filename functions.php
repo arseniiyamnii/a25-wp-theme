@@ -1,4 +1,6 @@
 <?php
+//update_option( 'siteurl', 'http://94.190.26.105:8026/yourblog' );
+//update_option( 'home', 'http://94.190.26.105:8026/yourblog' );
 function main_scripts()
 {
     // all styles

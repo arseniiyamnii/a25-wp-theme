@@ -1,16 +1,27 @@
-# wp-theme-template  
-## My WP theme for fastcreating custom themes
-i used it only for personal purpose .it used starnge libraries and dotfiles, but i try to explain all things))  
-in final we must get theme, with bootstrap, and many guttenberg blocks. Every block must be in own git repo(maybe)
-i need custom vimrc, npmscripts, phpcs, phpcs-fixer(or something like this), js linter, js unit tests(maybe), babelrc(for gutenberg), scss compiler, npm watcher, etc.
-unused functions must be commented. Also i need documentation for theme(maybe Sphinx). Well. Its many work. Lets start)))
-installing tutorials:
-https://camilopayan.com/posts/lint-your-php-in-vim/
-https://medium.com/@mcnamee/phpcs-code-linting-for-wordpress-c340199364c6
-### TO-DO
- - [ ] install linter  
- - [ ] settings linter  
- - [ ] install autoBeautifyer  
- - [ ] setting autobeautifyer  
- - [ ] 
+# A25 Wordpress theme  
+
+check this theme at [HERE](http://94.190.26.105:8026 "A25 site")  
+
+Скачать тему можно в разделе release  
+## Немного о теме:
+В тему встроены три gutenberg блока для главной страницы.
+Один из блоков, это контактная форма. Она отсылает данные через ajax на почту на которую настроена отправка
+Для настройки отправки нужно создать файл `.env` в родительской дирректории темы. В нем нужно прописать:
+`SMTP_URL=""
+SMTP_USER=""
+SMTP_PASS=""
+SMTP_PORT=""`  
+Также в файлк `ajax-forms.php` можно настроить ssl/tls  
+Для отправки почты используется плагин PHPmailer.  
+
+## Для разработчиков
+После клонирования репозитория себе, нужно выполнить:
+`composer install`
+`npm install`
+Для запуска пересборки Gutenberg блоков запустите:
+`gulp js`
+Можно поставить watcher для наблюдения за файлом gutenberg с командой:  
+`gulp stream`
+Для сборки темы в zip пакет выболните:
+`./build.sh`
 
