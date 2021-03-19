@@ -1,0 +1,39 @@
+{
+    "badges": [
+        {"outfile":"doc/img/wpversion.png",
+        "font":"Ubuntu",
+        "font_size":15,
+        "left":{
+            "text":"WP vers",
+            "font_color":"black",
+            "color1":"#0182A9",
+            "color2":"#00769A"
+        },
+        "rigth":{
+            "text":"v5.7",
+            "font_color":"black",
+            "color1":"#757575",
+            "color2":"#474747"
+         
+        }
+        },
+        {"outfile":"doc/img/themeversion.png",
+        "font":"Ubuntu",
+        "font_size":15,
+        "left":{
+            "text":"version",
+            "font_color":"black",
+            "color1":"#f47feb",
+            "color2":"#ee11c5"
+        },
+        "rigth":{
+            "text":"0.1",
+            "font_color":"black",
+            "color1":"#757575",
+            "color2":"#474747"
+         
+        }
+        }
+    ]
+
+}
